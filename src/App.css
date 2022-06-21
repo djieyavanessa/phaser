@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.footer {
+  color: rgb(31, 30, 30);
+}
+.ti {
+  color: rgb(31, 30, 30);
+}
+a .blocMenu1 {
+  text-decoration: none;
+}
+.blocMenu1 a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.point {
+  float: left;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(10, 177, 94);
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+  border-radius: 30px;
+}
+.gameover {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(93, 94, 43);
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+  border-radius: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.score {
+  font-size: 30px;
+}
+.start {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(10, 177, 94);
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+  border-radius: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.multipli {
+  float: right;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(10, 177, 94);
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin-right: 10%;
+  border-radius: 30px;
+}
+.quit {
+  float: right;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(10, 177, 94);
+  padding-top: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 0%;
+  margin-right: 10%;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.exit {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(211, 30, 66);
+  padding-top: 0%;
+  margin-left: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 0%;
+  margin-right: 10%;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.exitt {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(211, 30, 66);
+
+  margin-left: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.exitt:hover {
+  background-color: rgb(224, 53, 88);
+  cursor: pointer;
+}
+.exit:hover {
+  background-color: rgb(224, 53, 88);
+  cursor: pointer;
+}
+.return {
+  float: right;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(54, 44, 46);
+  padding-top: 0%;
+
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 0%;
+  margin-right: 10%;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.return:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.quit:hover {
+  float: right;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(211, 30, 66);
+  padding-top: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 0%;
+  margin-right: 10%;
+  cursor: pointer;
+}
+.button {
+  background-color: yellowgreen;
+  color: white;
+}
+.backHome {
+  background-color: rgb(54, 44, 46);
+  color: white;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 10%;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+.backHome:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.blocMenu1 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(89, 82, 82);
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin-left: 30%;
+  margin-right: 35%;
+  border-radius: 30px;
+}
+
+.blocMenu1:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(61, 49, 51);
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin-left: 30%;
+  margin-right: 35%;
+}
+.error {
+  color: red;
+}
+body {
+  margin: 0 auto;
+}
+
+.m-5-auto {
+  margin: 5rem auto;
+}
+
+.primary-button {
+  margin-top: 5rem;
+  margin-right: 1rem;
+  padding: 0.6rem;
+  width: 10rem;
+  background: #222;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+  color: #f1f1f1;
+}
+
+.main-title {
+  padding-top: 10rem;
+  font-size: 5rem;
+  font-family: 'Fascinate', cursive;
+  text-transform: uppercase;
+}
+
+.main-para {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+#reg_btn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#reg_btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+  font-weight: 300;
+}
+
+form {
+  display: inline-block;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+form label {
+  float: left;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.right-label {
+  float: right;
+  cursor: pointer;
+}
+
+input {
+  width: 15rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: 0.3rem;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#sub_btn:hover {
+  background: #333;
+  transition: all 0.5s;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/***    Register Page     ***/
+#checkbox {
+  width: 1rem;
+}
+
+form span {
+  font-size: 0.8rem;
+}
+
+#reset_pass_lbl {
+  float: left;
+}
+
+/***    Home Page     ***/
+.home-page-title {
+  color: #222;
+}
